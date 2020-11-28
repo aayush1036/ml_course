@@ -8,7 +8,7 @@ test_set = subset(dataset, split==F)
 regressor <- lm(formula=Salary~YearsExperience, data = training_set)
 #Here we use the linear model function from R which builds a model on the basis of 
 #The formula which we specify (here salary is a linear relation of YearsExperience) and the 
-#dataset on whihc we wish to apply the model on 
+#dataset on which we wish to apply the model on 
 summary(regressor)
 # 3 stars ahead of the variable means that the variable is highly statstically significant
 # The lower the P value is, the higher is the statistical significance
